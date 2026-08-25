@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../screens/dashboard_screen.dart';
-import '../screens/face_test_screen.dart';
 import '../screens/registration_screen.dart';
 import '../screens/verification_screen.dart';
 
@@ -27,12 +26,6 @@ class AppRoutes {
       case verification:
         return MaterialPageRoute(
           builder: (_) => const VerificationScreen(),
-          settings: settings,
-        );
-
-      case faceTest:
-        return MaterialPageRoute(
-          builder: (_) => const FaceTestScreen(),
           settings: settings,
         );
 
